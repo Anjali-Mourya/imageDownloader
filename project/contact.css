@@ -1,0 +1,268 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+.cursor{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  position: absolute;
+}
+h1{
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: Georgia, serif;
+  color: rgb(102, 27, 42);
+}
+.ajmlogo img{
+  height: 7%;
+  width: 8%;
+  margin-left: 3px;
+  margin-top: 5px;
+}
+.ajmlogo{
+  margin-left: 10px;
+  position: absolute;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container_1{
+  height: 400px;
+  width: 500px;
+  background-color: lightcyan;
+  border: #dadada;
+  border-radius: 5px;
+}
+.container_1 img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+   transform: translate(-20% -20%); 
+}
+.container_2{
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.container_2 h2{
+  text-align: center;
+  margin-top: 1rem;
+}
+.container_2 .address,.phone,.email{
+  padding-left: 2rem;
+  margin-top: 3rem;
+}
+.container_2 .address span{
+  color: #dadada;
+}
+.container_2 .phone a,.email a{
+  text-decoration: none;
+  color: #dadada;
+}
+.footer{
+  height: 400px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.box1{
+  height: 200px;
+  width: 250px;
+  /* background-color: #dc5192; */
+}
+.box2{
+  height: 200px;
+  width: 200px;
+  /* background-color: yellow; */
+}
+.box3{
+  height: 200px;
+  width: 200px;
+  /* background-color: red; */
+}
+.box4{
+  height: 200px;
+  width: 200px;
+  /* background-color: green; */
+}
+.para{
+  font-size: 4vmin;
+  font-weight: 900;
+  color: #fff;
+}
+.para2{
+  color: #dadada;
+  text-align: center;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.apple{
+  background-color:  #fff;
+  width: 75px;
+  height: 35px;
+  border: 2px solid grey ;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 2vmin;
+}
+.apple i{
+  font-size: 5vmin;
+}
+.android{
+  background-color:  #fff;
+  width: 100px;
+  height: 35px;
+  border: 2px solid grey ;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 2vmin;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  margin-top: 4vmin;
+  font-size: 2.5vw;
+}
+.media{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.social-media i{
+color: #fff;
+}
+.social-media i:hover{
+  color: grey;
+}
+.apple:hover{
+  background-color: #fff;
+  border: 3px solid #dadada ;
+  cursor: pointer;
+}
+.android:hover{
+  background-color: #fff;
+  border: 3px solid #dadada ;
+  cursor: pointer;
+}
+.box2{
+  color: #fff;
+  font-weight:500;
+}
+.box2 .heading4{
+  font-size: 2.5vw;
+}
+.box2 p{
+  font-size: 2vw;
+}
+.box2 p:hover{
+  color: grey;
+}
+.box3{
+  color: #fff;
+  font-weight: 500;
+}
+.box3 p{
+  font-size: 2vw;
+}
+.box3 p:hover{
+  color: grey;
+}
+.box4 h3{
+  font-size: 2vw;
+  color: #fff;
+}
+.box4 button{
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 1vmin;
+  background-color: #000;
+  color: grey;
+} 
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.box4 button:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer-box{
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+.footer-box{
+  text-align: center;
+  color: #fff;
+  font-size: 1.8vw;
+}
+
+
+
+
+@media (max-width:600px) {
+  .container{
+    display: block;
+  }
+  .container_2 .address,.phone,.email{
+    font-size: 1rem;
+  }
+  .container_2 .address span{
+    font-size: 1rem;
+  }
+  .box1{
+    padding-right: 2vmin;
+}
+.box2 .heading4{
+    font-size: 3vw;
+}
+.box2 p{
+    font-size: 2.5vw;
+}
+.box3 .heading4{
+    font-size: 3vw;
+}
+.box3 p{
+    font-size: 2.5vw;
+}
+.box4 .heading4{
+    font-size: 2.5vw;
+}
+.footer-box{
+    font-size: 2.5vw;
+}
+}

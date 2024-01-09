@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    position: absolute;
+  }
+.logo{
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+    gap: 55rem;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+.logo{
+    padding-left: 3rem;
+    margin-top: 2rem;
+}
+.ajmlogo img{
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+.main .box1{
+    height: 600px;
+    width: 500px;
+    /* background-color: yellow; */
+}
+.main .box2{
+    height: 400px;
+    width: 500px;
+    /* background-color: blue; */
+}
+.main .box2 img{
+    border-radius: 5px;
+}
+.box1 .para{
+    font-size: 2.5vw;
+    padding-left: 2rem;
+    color: rgba(31, 30, 30, 0.845);
+    font-weight: 550;
+}
+.box1 span{
+    text-decoration: darkgoldenrod underline;
+}
+.box1 .para2{
+    padding-left: 2rem;
+    margin-top: 0.5rem;
+    font-size: 2vw;
+    font-weight: 550;
+    color: rgba(31, 30, 30, 0.845);
+}
+.box1 p {
+    padding-left: 2rem;
+    font-size: 1.5vw;
+    color: gray;
+    margin-top: 0.3rem;
+}
+.box1 b{
+    color: rgba(31, 30, 30, 0.845);
+}
+.box1 i{
+    color: skyblue;
+    padding-right: 0.2rem;
+}
+.box{
+    align-items: center;
+    /* text-align: center; */
+    margin-top: 2rem;
+    width: 30rem;
+    padding: 2.5rem;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    border-radius :8px;
+}
+form input{
+    height: 35px;
+}
+form input[type="text"]{
+    width: 48%;
+    margin: 0.2px;
+}
+form input[type="password"] {
+    width: 98%;
+    margin: 5px;
+}
+form input[type="email"]{
+    width: 98%;
+  margin: 5px;
+}
+form input[type="file"]{
+    width: 98%;
+    background-color: black;
+    color: #fff;
+    margin: 5px;
+}
+form input[type="submit"]{
+    width: 98%;
+    background-color: blue;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+form input {
+    border-radius: 5px;
+    border: 1px solid #dadada;
+}
+.para p{
+    font-size: 1vw;
+}
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+  }
+  .box1{
+    height: 200px;
+    width: 250px;
+    /* background-color: #dc5192; */
+  }
+  .box2{
+    height: 200px;
+    width: 200px;
+    /* background-color: yellow; */
+  }
+  .box3{
+    height: 200px;
+    width: 200px;
+    /* background-color: red; */
+  }
+  .box4{
+    height: 200px;
+    width: 200px;
+    /* background-color: green; */
+  }
+  .para{
+    font-size: 4vmin;
+    font-weight: 900;
+    color: #fff;
+  }
+  .para2{
+    color: #dadada;
+    text-align: center;
+  }
+  .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .apple{
+    background-color:  #fff;
+    width: 75px;
+    height: 35px;
+    border: 2px solid grey ;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-top: 2vmin;
+  }
+  .apple i{
+    font-size: 5vmin;
+  }
+  .android{
+    background-color:  #fff;
+    width: 100px;
+    height: 35px;
+    border: 2px solid grey ;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 500;
+    margin-top: 2vmin;
+  }
+  .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin-top: 4vmin;
+    font-size: 2.5vw;
+  }
+  .media{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+  }
+  
+  .social-media i{
+  color: #fff;
+  }
+  .social-media i:hover{
+    color: grey;
+  }
+  .apple:hover{
+    background-color: #fff;
+    border: 3px solid #dadada ;
+    cursor: pointer;
+  }
+  .android:hover{
+    background-color: #fff;
+    border: 3px solid #dadada ;
+    cursor: pointer;
+  }
+  .box2{
+    color: #fff;
+    font-weight:500;
+  }
+  .box2 .heading4{
+    font-size: 2.5vw;
+  }
+  .box2 p{
+    font-size: 2vw;
+  }
+  .box2 p:hover{
+    color: grey;
+  }
+  .box3{
+    color: #fff;
+    font-weight: 500;
+  }
+  .box3 p{
+    font-size: 2vw;
+  }
+  .box3 p:hover{
+    color: grey;
+  }
+  .box4 h3{
+    font-size: 2vw;
+    color: #fff;
+  }
+  .box4 button{
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 1vmin;
+    background-color: #000;
+    color: grey;
+  } 
+  .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  .box4 button:hover{
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .footer-box{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+  }
+  .footer-box{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8vw;
+  }
+  
+
+
+
+
+@media (max-width:600px) {
+    .box h2{
+    font-size: 3vw;
+    }
+    .box p{
+        font-size: 2.5vw;
+    }
+    .box1{
+       padding-left: 3rem;
+    }
+    .para p{
+        font-size: 2vw;
+    }
+    .box1 .para{
+        font-size: 3.5vw;
+    }
+    .box1 .para2{
+        font-size: 3vw;
+    }
+    .box1 p{
+        font-size: 2vw;
+    }
+    .main{
+        display: inline;
+    }
+    .box1{
+        padding-right: 2vmin;
+    }
+    .box2 .heading4{
+        font-size: 3vw;
+    }
+    .box2 p{
+        font-size: 2.5vw;
+    }
+    .box3 .heading4{
+        font-size: 3vw;
+    }
+    .box3 p{
+        font-size: 2.5vw;
+    }
+    .box4 .heading4{
+        font-size: 2.5vw;
+    }
+    .footer-box{
+        font-size: 2.5vw;
+    }
+}
+
+
+
+
