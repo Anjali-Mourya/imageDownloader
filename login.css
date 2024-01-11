@@ -70,14 +70,15 @@ form input {
 .para p{
   font-size: 1vw;
 }
+
 .footer{
-  height: 400px;
+  height: 550px;
   width: 100%;
   background-color: #000;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 2rem;
+
 }
 .box1{
   height: 200px;
@@ -99,7 +100,7 @@ form input {
   width: 200px;
   /* background-color: green; */
 }
-.box1 .para{
+.para{
   font-size: 4vmin;
   font-weight: 900;
   color: #fff;
@@ -116,7 +117,7 @@ form input {
 }
 .apple{
   background-color:  #fff;
-  width: 75px;
+  width: 30%;
   height: 35px;
   border: 2px solid grey ;
   border-radius: 10px;
@@ -130,7 +131,7 @@ form input {
 }
 .android{
   background-color:  #fff;
-  width: 100px;
+  width: 45%;
   height: 35px;
   border: 2px solid grey ;
   border-radius: 10px;
@@ -227,38 +228,47 @@ color: #fff;
 
 
 
+
 @media (max-width:600px) {
   .box h2{
-  font-size: 3vw;
+    font-size: 3vw;
+    }
+    .box p{
+        font-size: 2.5vw;
+    }
+    .para p{
+        font-size: 2vw;
+    }
+  .box1{
+      padding-left: 2rem;
+      text-align: center;
+      padding-right: 2vmin;
   }
-  .box p{
+  .box2 .heading4{
+      font-size: 3vw;
+  }
+  .box2 p{
       font-size: 2.5vw;
   }
-  .box1{
-     padding-left: 3rem;
+  .box3 .heading4{
+      font-size: 3vw;
   }
-  .para p{
-      font-size: 2vw;
+  .box3 p{
+      font-size: 2.5vw;
   }
-  .box1{
-    padding-right: 2vmin;
+  .box4 .heading4{
+      font-size: 2.5vw;
+  }
+  .box4 button {
+      width: 8.5vw;
+  }
+  .footer-box{
+      font-size: 2.5vw;
+  }
 }
-.box2 .heading4{
-    font-size: 3vw;
-}
-.box2 p{
-    font-size: 2.5vw;
-}
-.box3 .heading4{
-    font-size: 3vw;
-}
-.box3 p{
-    font-size: 2.5vw;
-}
-.box4 .heading4{
-    font-size: 2.5vw;
-}
-.footer-box{
-    font-size: 2.5vw;
-}
-}
+
+
+
+
+
+

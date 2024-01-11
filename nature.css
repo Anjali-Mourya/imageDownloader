@@ -21,7 +21,6 @@ html,body{
     background-size: cover;
     position: relative;
 }
-
 .ajmlogo img{
     height: 7%;
     width: 8%;
@@ -133,7 +132,7 @@ html,body{
 }
 h3{
     font-size: 3vw;
-    color: #7e1747;
+    color: lightslategray;
     padding-left: 3vmin;
     margin-top: 3vmin;
     margin-bottom: 3vmin;
@@ -146,6 +145,10 @@ h3{
     justify-content: center; 
     align-items: center;
     flex-wrap: wrap;
+    overflow: auto;
+}
+.section::-webkit-scrollbar{
+    display: none;
 }
 .divBox{
     height: 270px;
@@ -185,8 +188,8 @@ h3{
 .icon i{
     font-size: 3vmin;
     font-weight: bold;
-    background-color: #7e1747;
-    color: #fff;
+    background-color: rgb(247, 245, 245);
+    color: #000;
     cursor: pointer;
 }
 .icon {
@@ -195,12 +198,13 @@ h3{
     top: 6%;
 }
 .footer{
-    height: 400px;
+    height: 550px;
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 .box1{
     height: 200px;
@@ -239,7 +243,7 @@ h3{
 }
 .apple{
     background-color:  #fff;
-    width: 75px;
+    width: 30%;
     height: 35px;
     border: 2px solid grey ;
     border-radius: 10px;
@@ -253,7 +257,7 @@ h3{
 }
 .android{
     background-color:  #fff;
-    width: 100px;
+    width: 45%;
     height: 35px;
     border: 2px solid grey ;
     border-radius: 10px;
@@ -373,10 +377,9 @@ h3{
         top: 6%;
         right: 6%;
     }
-    .footer{
-        margin-top: 210rem;
-    }
     .box1{
+        padding-left: 2rem;
+        text-align: center;
         padding-right: 2vmin;
     }
     .box2 .heading4{
@@ -393,6 +396,9 @@ h3{
     }
     .box4 .heading4{
         font-size: 2.5vw;
+    }
+    .box4 button {
+        width: 8.5vw;
     }
     .footer-box{
         font-size: 2.5vw;

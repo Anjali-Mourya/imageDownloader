@@ -35,7 +35,7 @@ html,body{
 .ajmlogo img{
     height: 100px;
     width: 100px;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 .main{
     display: flex;
@@ -43,57 +43,57 @@ html,body{
     align-items: center;
     margin-top: 2rem;
 }
-.main .box1{
+.main .box_1{
     height: 600px;
     width: 500px;
     /* background-color: yellow; */
 }
-.main .box2{
+.main .box_2{
     height: 400px;
     width: 500px;
     /* background-color: blue; */
 }
-.main .box2 img{
+.main .box_2 img{
     border-radius: 5px;
 }
-.box1 .para{
+.box_1 .photo{
     font-size: 2.5vw;
     padding-left: 2rem;
     color: rgba(31, 30, 30, 0.845);
     font-weight: 550;
 }
-.box1 span{
+.box_1 span{
     text-decoration: darkgoldenrod underline;
 }
-.box1 .para2{
+.box_1 .photo_2{
     padding-left: 2rem;
     margin-top: 0.5rem;
     font-size: 2vw;
     font-weight: 550;
     color: rgba(31, 30, 30, 0.845);
 }
-.box1 p {
+.box_1 p {
     padding-left: 2rem;
     font-size: 1.5vw;
     color: gray;
     margin-top: 0.3rem;
 }
-.box1 b{
+.box_1 b{
     color: rgba(31, 30, 30, 0.845);
 }
-.box1 i{
+.box_1 i{
     color: skyblue;
     padding-right: 0.2rem;
 }
 .box{
     align-items: center;
-    /* text-align: center; */
+     text-align: center; 
     margin-top: 2rem;
     width: 30rem;
     padding: 2.5rem;
     box-sizing: border-box;
     border: 1px solid #dadce0;
-    border-radius :8px;
+    border-radius :8px; 
 }
 form input{
     height: 35px;
@@ -131,160 +131,160 @@ form input {
     font-size: 1vw;
 }
 .footer{
-    height: 400px;
-    width: 100%;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-  }
-  .box1{
-    height: 200px;
-    width: 250px;
-    /* background-color: #dc5192; */
-  }
-  .box2{
-    height: 200px;
-    width: 200px;
-    /* background-color: yellow; */
-  }
-  .box3{
-    height: 200px;
-    width: 200px;
-    /* background-color: red; */
-  }
-  .box4{
-    height: 200px;
-    width: 200px;
-    /* background-color: green; */
-  }
-  .para{
-    font-size: 4vmin;
-    font-weight: 900;
-    color: #fff;
-  }
-  .para2{
-    color: #dadada;
-    text-align: center;
-  }
-  .social{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-  }
-  .apple{
-    background-color:  #fff;
-    width: 75px;
-    height: 35px;
-    border: 2px solid grey ;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 2rem;
-    font-weight: 500;
-    margin-top: 2vmin;
-  }
-  .apple i{
-    font-size: 5vmin;
-  }
-  .android{
-    background-color:  #fff;
-    width: 100px;
-    height: 35px;
-    border: 2px solid grey ;
-    border-radius: 10px;
-    text-align: center;
-    line-height: 2rem;
-    font-weight: 500;
-    margin-top: 2vmin;
-  }
-  .social-media{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 5px;
-    margin-top: 4vmin;
-    font-size: 2.5vw;
-  }
-  .media{
-    display: flex;
-    align-items: center;
-    gap: 2vw;
-  }
-  
-  .social-media i{
+  height: 550px;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 8.5rem;
+
+}
+.box1{
+  height: 200px;
+  width: 250px;
+  /* background-color: #dc5192; */
+}
+.box2{
+  height: 200px;
+  width: 200px;
+  /* background-color: yellow; */
+}
+.box3{
+  height: 200px;
+  width: 200px;
+  /* background-color: red; */
+}
+.box4{
+  height: 200px;
+  width: 200px;
+  /* background-color: green; */
+}
+.para{
+  font-size: 4vmin;
+  font-weight: 900;
   color: #fff;
-  }
-  .social-media i:hover{
-    color: grey;
-  }
-  .apple:hover{
-    background-color: #fff;
-    border: 3px solid #dadada ;
-    cursor: pointer;
-  }
-  .android:hover{
-    background-color: #fff;
-    border: 3px solid #dadada ;
-    cursor: pointer;
-  }
-  .box2{
-    color: #fff;
-    font-weight:500;
-  }
-  .box2 .heading4{
-    font-size: 2.5vw;
-  }
-  .box2 p{
-    font-size: 2vw;
-  }
-  .box2 p:hover{
-    color: grey;
-  }
-  .box3{
-    color: #fff;
-    font-weight: 500;
-  }
-  .box3 p{
-    font-size: 2vw;
-  }
-  .box3 p:hover{
-    color: grey;
-  }
-  .box4 h3{
-    font-size: 2vw;
-    color: #fff;
-  }
-  .box4 button{
-    height: 30px;
-    width: 100%;
-    border-radius: 5px;
-    margin: 1vmin;
-    background-color: #000;
-    color: grey;
-  } 
-  .buttons{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 5px;
-  }
-  .box4 button:hover{
-    background-color: #fff;
-    cursor: pointer;
-  }
-  .footer-box{
-    height: 50px;
-    width: 100%;
-    background-color: grey;
-  }
-  .footer-box{
-    text-align: center;
-    color: #fff;
-    font-size: 1.8vw;
-  }
-  
+}
+.para2{
+  color: #dadada;
+  text-align: center;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.apple{
+  background-color:  #fff;
+  width: 30%;
+  height: 35px;
+  border: 2px solid grey ;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 2vmin;
+}
+.apple i{
+  font-size: 5vmin;
+}
+.android{
+  background-color:  #fff;
+  width: 45%;
+  height: 35px;
+  border: 2px solid grey ;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 2vmin;
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+  margin-top: 4vmin;
+  font-size: 2.5vw;
+}
+.media{
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+
+.social-media i{
+color: #fff;
+}
+.social-media i:hover{
+  color: grey;
+}
+.apple:hover{
+  background-color: #fff;
+  border: 3px solid #dadada ;
+  cursor: pointer;
+}
+.android:hover{
+  background-color: #fff;
+  border: 3px solid #dadada ;
+  cursor: pointer;
+}
+.box2{
+  color: #fff;
+  font-weight:500;
+}
+.box2 .heading4{
+  font-size: 2.5vw;
+}
+.box2 p{
+  font-size: 2vw;
+}
+.box2 p:hover{
+  color: grey;
+}
+.box3{
+  color: #fff;
+  font-weight: 500;
+}
+.box3 p{
+  font-size: 2vw;
+}
+.box3 p:hover{
+  color: grey;
+}
+.box4 h3{
+  font-size: 2vw;
+  color: #fff;
+}
+.box4 button{
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 1vmin;
+  background-color: #000;
+  color: grey;
+} 
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.box4 button:hover{
+  background-color: #fff;
+  cursor: pointer;
+}
+.footer-box{
+  height: 50px;
+  width: 100%;
+  background-color: grey;
+}
+.footer-box{
+  text-align: center;
+  color: #fff;
+  font-size: 1.8vw;
+}
 
 
 
@@ -296,19 +296,19 @@ form input {
     .box p{
         font-size: 2.5vw;
     }
-    .box1{
+    .box_1{
        padding-left: 3rem;
     }
-    .para p{
+    .photo p{
         font-size: 2vw;
     }
-    .box1 .para{
+    .box_1 .photo{
         font-size: 3.5vw;
     }
-    .box1 .para2{
+    .box_1 .photo_2{
         font-size: 3vw;
     }
-    .box1 p{
+    .box_1 p{
         font-size: 2vw;
     }
     .main{
@@ -316,6 +316,8 @@ form input {
     }
     .box1{
         padding-right: 2vmin;
+        padding-left: 2rem;
+        text-align: center;
     }
     .box2 .heading4{
         font-size: 3vw;
@@ -332,8 +334,14 @@ form input {
     .box4 .heading4{
         font-size: 2.5vw;
     }
+    .box4 button {
+      width: 8.5vw;
+    }
     .footer-box{
         font-size: 2.5vw;
+    }
+    .box{
+      padding-right: 12rem;
     }
 }
 

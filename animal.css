@@ -20,8 +20,6 @@ html,body{
     background-image: url('animal/body.jpg');
     background-size: cover;
     position: relative;
-    object-fit: cover;
-    object-position: center;
 }
 .ajmlogo img{
     height: 7%;
@@ -134,7 +132,7 @@ html,body{
 }
 h3{
     font-size: 3vw;
-    color: orangered;
+    color: lightslategray;
     padding-left: 3vmin;
     margin-top: 3vmin;
     margin-bottom: 3vmin;
@@ -200,12 +198,13 @@ h3{
     top: 6%;
 }
 .footer{
-    height: 400px;
+    height: 550px;
     width: 100%;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
 }
 .box1{
     height: 200px;
@@ -244,7 +243,7 @@ h3{
 }
 .apple{
     background-color:  #fff;
-    width: 75px;
+    width: 30%;
     height: 35px;
     border: 2px solid grey ;
     border-radius: 10px;
@@ -258,7 +257,7 @@ h3{
 }
 .android{
     background-color:  #fff;
-    width: 100px;
+    width: 45%;
     height: 35px;
     border: 2px solid grey ;
     border-radius: 10px;
@@ -355,6 +354,7 @@ h3{
 
 
 
+
 @media (max-width:600px) {
     .navbar{
         padding-right: 10px;
@@ -378,6 +378,8 @@ h3{
         right: 6%;
     }
     .box1{
+        padding-left: 2rem;
+        text-align: center;
         padding-right: 2vmin;
     }
     .box2 .heading4{
@@ -395,8 +397,10 @@ h3{
     .box4 .heading4{
         font-size: 2.5vw;
     }
+    .box4 button {
+        width: 8.5vw;
+    }
     .footer-box{
         font-size: 2.5vw;
     }
-
 }
